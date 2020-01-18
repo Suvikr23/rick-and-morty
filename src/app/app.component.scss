@@ -1,0 +1,51 @@
+.character-space {
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.filter-space{
+    height: 100%;
+    flex-basis: 10%;
+}
+
+.species {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.origin {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+.display-space{
+    height: 100%;
+    flex-basis: 90%;
+}
+
+.cards-pane {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    .card {
+        flex-basis: 20%;
+    }
+}
